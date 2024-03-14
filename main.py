@@ -3,6 +3,9 @@ from slow_print import slow_print
 numberOfBottles = 99
 
 def take_one_down(bottleCount = 0):
+    """
+    Handles the verse structure for the song and tries hard to have the correct grammar.
+    """
     if bottleCount > 1:
         verseFormat = f"""
         {bottleCount} bottles of glass on the wall!
